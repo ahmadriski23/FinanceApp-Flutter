@@ -1,4 +1,4 @@
 import 'package:flutter/material.dart';
 
-final kPrimaryColor = Color.fromARGB(255, 11, 92, 192);
-final kShadowColor = Color.fromARGB(255, 35, 117, 216);
+final kPrimaryColor = Color.fromARGB(255, 74, 12, 220);
+final kShadowColor = Color.fromARGB(255, 103, 38, 255);

@@ -33,6 +33,7 @@ class _AddPageState extends State<AddPage> {
     'Transfer',
     'Transportation',
     'Education',
+    'Fashion'
   ];
 
   final List<String> _itemType = [

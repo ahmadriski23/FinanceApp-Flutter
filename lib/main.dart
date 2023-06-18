@@ -1,3 +1,5 @@
+import 'package:animated_splash_screen/animated_splash_screen.dart';
+import 'package:finance_app/const.dart';
 import 'package:finance_app/views/homePage.dart';
 import 'package:finance_app/widgets/bottomBar.dart';
 import 'package:flutter/material.dart';
@@ -20,12 +22,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Finance App',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: BottomBarWidget(),
-    );
+        debugShowCheckedModeBanner: false,
+        title: 'Finance Bomb',
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+        ),
+        home: AnimatedSplashScreen(
+            splashIconSize: 500,
+            splash: 'assets/images/splash-image.png',
+            nextScreen: BottomBarWidget(),
+            splashTransition: SplashTransition.fadeTransition,
+            backgroundColor: kPrimaryColor));
   }
 }

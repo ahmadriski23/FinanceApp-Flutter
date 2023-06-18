@@ -76,7 +76,7 @@ class _HeadHomePageState extends State<HeadHomePage> {
                             ),
                           ),
                           Text(
-                            'Ahmad Riski',
+                            'Fibomb Friend',
                             style: TextStyle(
                               fontWeight: FontWeight.w600,
                               fontSize: 18,
